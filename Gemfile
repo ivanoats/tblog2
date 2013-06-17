@@ -7,8 +7,8 @@ gem 'rails', '3.2.13'
 
 gem 'sqlite3'
 
-group :development, :test do
-  gem 'rails-perftest'
+group :test do
+  gem 'test-unit'
   gem 'ruby-prof'
 end
 
